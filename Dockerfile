@@ -1,4 +1,4 @@
-FROM sarthaksharma2199/swa-deploy:latest
+FROM sarthaksharma2199/swa-deploy:private
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
